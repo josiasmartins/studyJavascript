@@ -45,5 +45,16 @@ for(let chair2 of names) {
 
 /** 
  *      FOR...IN
- *          cria um loop em cima de um objeto
+ *          cria um loop em cima de um objeto. 
+ *          pegando as propriedades do objeto
  */
+let pearson2 = {
+    name3: 'Maria',
+    age: 49,
+    weigth: 88.90
+}
+
+for(let property in pearson2) {
+    console.log(property);
+    console.log(pearson2[property])  // outra forma de acessar: pearson2.name3; pearson2[property]
+}
