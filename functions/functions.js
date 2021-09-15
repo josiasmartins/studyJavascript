@@ -10,10 +10,10 @@
 // function anonymous
 
 // parametros da função (parameters)
-// const sum = function(number1, number2) {
-//     total = number1 + number2;
-//     return total;
-// }
+const sum = function(number1, number2) {
+    total = number1 + number2;
+    return total;
+}
 
 // let number1 = 34;
 // let number2 = 24;
@@ -58,11 +58,11 @@
 
 /** ARROW FUNCTIONS */
 
-// const say = () => {
-//     console.log("Maria do Carmo")
-// }
+const say = () => {
+    console.log("Maria do Carmo")
+}
 
-// say("Mari");
+say("Mari");
 
 
 /** CALLBACK FUNCTION. É uma função que está passando como parâmetro para outra função */
